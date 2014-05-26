@@ -45,7 +45,7 @@ examples:
   **debug()**
   **browser()** - insert debuggerbreakpoints in code.  brower commands:
   - n - step
-  - <variable> - display variable
+  - _variable_ - display variable
   - ls() - list all names (as usual)
   - c - continue execution
   **recover()**
