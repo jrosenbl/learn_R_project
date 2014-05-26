@@ -4,9 +4,12 @@ R Cheatsheet
 
 Sourced from Coursera Johns Hopkins University, "R Programming" online course
 
-str(x) - display the structure of x
-summary(x) - do summary statistics on x
-invisible(x) - return x but don't print it
+misc
+----
+
+**str(x)** - display the structure of x  
+**summary(x)** - do summary statistics on x  
+**invisible(x)** - return x but don't print it  
 
 apply functions 
 ---------------
