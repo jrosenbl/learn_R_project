@@ -11,6 +11,12 @@ misc
 **summary(x)** - do summary statistics on x  
 **invisible(x)** - return x but don't print it  
 
+data
+----
+**library(datasets)**  
+**data(_datasetName_)**  
+**gl(_factorLevels_,_repeatEachFactor_)**  
+
 apply functions 
 ---------------
 
@@ -40,13 +46,13 @@ examples:
   debugging
   ---------
 
-  **traceback()**
-  **trace()**
-  **debug()**
+  **traceback()**  
+  **trace()**  
+  **debug()**  
   **browser()** - insert debuggerbreakpoints in code.  brower commands:
   - n - step
   - _variable_ - display variable
   - ls() - list all names (as usual)
-  - c - continue execution
+  - c - continue execution  
   **recover()**
   - options(error = recover) - upon error, choose an execution frame and enter Browser in that frame
