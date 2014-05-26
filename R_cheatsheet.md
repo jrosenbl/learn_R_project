@@ -36,3 +36,17 @@ examples:
   - rowMeans = apply(x, 1, mean
   - colSums = apply(x,2, sum)
   - colMeans = apply(x,2,mean)
+
+  debugging
+  ---------
+
+  **traceback()**
+  **trace()**
+  **debug()**
+  **browser()** - insert debuggerbreakpoints in code.  brower commands:
+  - n - step
+  - <variable> - display variable
+  - ls() - list all names (as usual)
+  - c - continue execution
+  **recover()**
+  - options(error = recover) - upon error, choose an execution frame and enter Browser in that frame
