@@ -1,4 +1,3 @@
-
 R Cheatsheet
 ============
 
@@ -17,9 +16,23 @@ data
 **data(_datasetName_)**  
 **gl(_factorLevels_,_repeatEachFactor_)**  
 
+simulation
+----------
+**rnorm()** - generate random Normal variates with a given mean and std deviation   
+**rbinom()** - generate random binomial distribution
+**dnorm()** - evaluate Normal probability density (with a given mean/SD) at a point (or vector of points)
+**pnorm()** - evaluate the cumulative distribution function for a Normal distribution
+**rpois()** - generate random Poisson variates with a given rate
+**every distribution has these 4 functions:**  
+  - d for density
+  - r for random num density
+  - p for cumulative dist
+  - q for quantile function
+**set.seed(_seed_)** - always set the seed for reproducible results  
+**sample(_vector_, _numSamples_, replace=FALSE)** - replace=TRUE allows repeated values in sample. w/o _numSamples_ returns permutation of _vector_  
+
 apply functions 
 ---------------
-
 **lapply(<list>, <function>, <...>)*** - apply the function to each element in the list. always returns a list 
 examples:
    - x = list(a=1:5, b=rnorm(10))
